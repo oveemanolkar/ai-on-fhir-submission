@@ -1,0 +1,72 @@
+[
+  {
+    "input": "Show me all diabetic patients over 50",
+    "parsed": {
+      "age_gt": 50,
+      "condition": "diabetes"
+    },
+    "fhir_request": {
+      "resourceType": "Patient",
+      "criteria": {
+        "age_gt": 50,
+        "condition": "diabetes"
+      }
+    }
+  },
+  {
+    "input": "List patients with hypertension above 60",
+    "parsed": {
+      "age_gt": 60,
+      "condition": "hypertension"
+    },
+    "fhir_request": {
+      "resourceType": "Patient",
+      "criteria": {
+        "age_gt": 60,
+        "condition": "hypertension"
+      }
+    }
+  },
+  {
+    "input": "Find asthma patients older than 40",
+    "parsed": {
+      "age_gt": 40,
+      "condition": "asthma"
+    },
+    "fhir_request": {
+      "resourceType": "Patient",
+      "criteria": {
+        "age_gt": 40,
+        "condition": "asthma"
+      }
+    }
+  },
+  {
+    "input": "Patients over 65 with diabetes",
+    "parsed": {
+      "age_gt": 65,
+      "condition": "diabetes"
+    },
+    "fhir_request": {
+      "resourceType": "Patient",
+      "criteria": {
+        "age_gt": 65,
+        "condition": "diabetes"
+      }
+    }
+  },
+  {
+    "input": "Hypertensive patients older than 55",
+    "parsed": {
+      "age_gt": 55,
+      "condition": "hypertension"
+    },
+    "fhir_request": {
+      "resourceType": "Patient",
+      "criteria": {
+        "age_gt": 55,
+        "condition": "hypertension"
+      }
+    }
+  }
+]
